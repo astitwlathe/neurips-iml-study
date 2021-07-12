@@ -1,0 +1,16 @@
+# Input/output configuration
+input_dir: ./data/exatrkx/train_1
+output_dir: ./out/hitgraphs_1_2GeV
+n_files: 1770
+
+# Graph building configuration
+selection:
+    pt_min: 2. # GeV
+    phi_slope_max: 0.000262
+    z0_max: 15000
+    n_phi_sections: 8
+    n_eta_sections: 2
+    eta_range: [-5, 5]
+    phi_reflect: false
+    endcaps: true
+    remove_intersecting_edges: true

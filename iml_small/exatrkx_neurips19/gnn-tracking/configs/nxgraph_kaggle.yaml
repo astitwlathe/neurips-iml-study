@@ -1,0 +1,9 @@
+data:
+    name: hitgraphs
+    input_hitsgraph_dir:  out/hitgraphs_1_2GeV
+    output_nxgraph_dir: out/nxgraphs_1_2GeV
+    input_evt_dir: ./data/exatrkx/train_1
+    #blacklist_dir: /scratch/data/exatrkx/blacklist_training
+    log_name: data_process.log
+    n_tasks: 1
+    n_workers: 8
